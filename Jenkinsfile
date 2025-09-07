@@ -7,7 +7,7 @@ pipeline {
                 // Use GitHub credentials stored in Jenkins
                 git branch: 'main',
                     url: 'https://github.com/haneenAlaa21/dockerized-flask-app.git',
-                    credentialsId: 'github-token'   // <-- The ID you set in Jenkins credentials
+                    credentialsId: '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'   // <-- The ID you set in Jenkins credentials
             }
         }
 
