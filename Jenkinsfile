@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Use GitHub credentials stored in Jenkins
                 git branch: 'main',
-                    url: 'https://github.com/haneenAlaa21/dockerized-flask-app.git',
+                    url: 'https://github.com/haneenAlaa21/DevOps-Project-.git',
                     credentialsId: 'github-cred'   // <-- The ID you set in Jenkins credentials
             }
         }
